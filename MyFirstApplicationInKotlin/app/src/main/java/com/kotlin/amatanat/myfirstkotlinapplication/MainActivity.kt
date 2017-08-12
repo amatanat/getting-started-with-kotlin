@@ -3,6 +3,7 @@ package com.kotlin.amatanat.myfirstkotlinapplication
 import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Toast
+import es.dmoral.toasty.Toasty
 import kotlinx.android.synthetic.main.activity_main.*
 
 class MainActivity : AppCompatActivity() {
@@ -13,7 +14,7 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
 
         button.setOnClickListener({
-            Toast.makeText(this, "SUCCESS", Toast.LENGTH_LONG).show();
+            Toasty.success(this, "Success!", Toast.LENGTH_SHORT, true).show();
         }
         )
     }
