@@ -106,6 +106,7 @@
       android:layout_height="wrap_content"
       android:clickable="true"
       android:focusable="true"
+      android:accessibilityTraversalBefore="@+id/consumedContainer"
       android:contentDescription="@string/add_coffee"
       android:src="@drawable/ic_add_24px"
       app:fabSize="normal"
