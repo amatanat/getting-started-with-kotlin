@@ -19,6 +19,8 @@
         android:id="@+id/consumedContainer"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:focusable="true"
+        android:focusableInTouchMode="false"
         android:orientation="horizontal">
 
       <TextView
@@ -103,6 +105,7 @@
       android:layout_height="wrap_content"
       android:clickable="true"
       android:focusable="true"
+      android:contentDescription="@string/add_coffee"
       android:src="@drawable/ic_add_24px"
       app:fabSize="normal"
       app:layout_anchor="@id/mainContent"
