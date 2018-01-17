@@ -53,6 +53,7 @@
           android:layout_gravity="start|center_vertical"
           android:layout_weight="1"
           android:text="@string/coffee_limit_label"
+          android:labelFor="@id/coffeeLimitValue"
           android:textAppearance="@style/TextAppearance.AppCompat.Title"/>
 
       <!-- Dummy item to prevent EditText from receiving focus on Activity start -->
