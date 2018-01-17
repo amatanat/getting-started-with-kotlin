@@ -67,6 +67,7 @@
           android:id="@+id/coffeeLimitValue"
           android:layout_width="wrap_content"
           android:layout_height="wrap_content"
+          android:minHeight="48dp"
           android:layout_gravity="end"
           android:layout_weight="1"
           android:hint="@string/coffee_limit_input_hint"
